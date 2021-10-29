@@ -1,0 +1,16 @@
+GET http://localhost:5000/superhero
+
+###
+
+GET http://localhost:5000/superhero/{{$guid}}
+
+###
+
+#Created
+POST http://localhost:5000/superhero
+Content-Type: application/json
+
+{
+    "id":"b204ccf7-9737-48ff-ba25-c159d16dfcee",
+    "name":"new hero"
+}
